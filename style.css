@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway&family=Tilt+Neon&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+    background: linear-gradient(90deg, rgb(45, 22, 147), rgb(8, 12, 109));
+    font-family: 'Tilt Neon', cursive;
+    color: #fff;
+ }   
+html{
+    scroll-behavior: smooth;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar{
+    margin-left: 90%;
+    margin-top: 30px ;
+    font-size: 30px;
+    position: fixed;
+    text-align: center;
+}
+
+
+.link1,.link2, .link3, .links-skills{
+    display: inline-block;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.link1::after, .link2::after, .link3::after, .links-skills::after {
+    content: '';
+    display: block  ;
+    width: 0;
+    height: 2px;
+    background: #fffbfb;
+    transition: width 1s;
+}
+.link1:hover::after, .link2:hover::after, .link3:hover::after, .links-skills:hover::after {
+    width: 100% ;
+}
+
+.main{  
+    margin-left: 12%;
+    font-size:3.5rem;
+    margin-top: 10%;
+}
+.heading{
+  transform: translateY(38px); 
+  width: 70%;
+}
+.sub-heading{
+    width: 70%;
+  }
+.heading:hover, .sub-heading:hover{
+    color: white;
+    text-shadow:
+
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 34px #fff;
+}
+.about-me{ 
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size:3.5rem;
+    margin-top: 8%;
+    text-align: justify;
+}
+.info{
+    font-size:1.75rem;
+    margin-bottom: 20px;
+}
+.skills-text{
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size:3.5rem;
+    text-align: justify;
+}
+.skills-links{
+    font-size:2rem;
+}
+html::-webkit-scrollbar{
+  width: 20px;
+  background:rgb(8, 12, 109);
+}
+html::-webkit-scrollbar-thumb {
+    background: bisque;
+
+    outline: 1px solid bisque;
+  }
+.contact-me{
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size:3.5rem;
+    text-align: justify;
+}
+.social-links{
+    margin-left: 50%;
+    display: flex;
+}
